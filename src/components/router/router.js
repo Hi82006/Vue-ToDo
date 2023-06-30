@@ -5,6 +5,8 @@ import PostPage from "@/components/pages/PostPage";
 import About from "@/components/pages/About";
 import PostIdPage from "@/components/pages/PostIdPage";
 import PostPageWithStore from "@/components/pages/PostPageWithStore"
+import PostPageCompositionApi from "@/components/pages/PostPageCompositionApi"
+
 
 
 
@@ -28,6 +30,10 @@ const routes = [
     {
         path: '/store',
         component: PostPageWithStore
+    },
+    {
+        path: '/composition',
+        component: PostPageCompositionApi
     },
 ]
 
